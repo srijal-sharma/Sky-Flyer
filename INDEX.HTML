@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Flyer 🚀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div id="score-display">
+            Score: <span id="current-score">0</span> |
+            Coins: <span id="coin-count">0</span> |
+            High Score: <span id="high-score">0</span>
+        </div>
+
+        <div id="badge-area"></div>
+
+        <div id="player">
+            <div id="girl">👧</div>
+            <!-- TISHA's name on the parachute -->
+            <div id="parachute">
+                ☁️
+                <span id="tisha-name">TISHA</span>
+            </div>
+        </div>
+
+        <div id="game-over-screen" class="hidden">
+            <h2 id="game-over-title">Game Over!</h2>
+            <p id="final-score"></p>
+            <p id="girl-reaction"></p>
+            <button onclick="window.location.reload()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
